@@ -1,4 +1,4 @@
-## 1/ Set the environment variable
+## Set the environment variable
 
 Make sure you set the `ES_URL` environment variable in your .env file. This will be used to access your Elasticsearch server.
 
@@ -6,7 +6,7 @@ Make sure you set the `ES_URL` environment variable in your .env file. This will
 ES_URL=http://localhost:9200
 ```
 
-## 2/ Registering the provider
+## Registering the provider
 
 Make sure to register the provider inside `start/app.js` file.
 
