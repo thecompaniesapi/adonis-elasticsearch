@@ -2,7 +2,7 @@
 
 Make sure you set the `ES_URL` environment variable in your .env file. This will be used to access your Elasticsearch server.
 
-```javascript
+```bash
 ES_URL=http://localhost:9200
 ```
 

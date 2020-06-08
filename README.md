@@ -6,7 +6,7 @@ It is built on top of @elastic/elasticsearch and proxies all the methods keeping
 
 ## Installation
 
-```
+```bash
 npm install @poweredwith/adonis-elasticsearch
 ```
 
@@ -14,7 +14,7 @@ npm install @poweredwith/adonis-elasticsearch
 
 Make sure you set the `ES_URL` environment variable in your .env file. This will be used to access your Elasticsearch server.
 
-```javascript
+```bash
 ES_URL=http://localhost:9200
 ```
 
