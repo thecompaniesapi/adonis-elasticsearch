@@ -46,7 +46,7 @@ const response = await Elastic.search({
 
 ## Paginate results the Adonis way!
 
-The `Elastic.paginate()` method will paginate the results and return the same payload as Lucid's pagination.
+The `Elastic.paginate()` helper will paginate the results and return the same payload as Lucid's pagination method.
 
 ```js
 const Elastic = use("Elastic");
