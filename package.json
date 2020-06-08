@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "version": "0.0.1",
+  "name": "@poweredwith/adonis-elasticsearch",
+  "description": "Elasticsearch Service Provider for Adonis with additional features",
+  "author": "Growth Bunker <product@growthbunker.com>",
+  "license": "MIT",
+  "keywords": [
+    "adonisjs",
+    "elasticsearch",
+    "service provider"
+  ],
+  "homepage": "https://github.com/LeCoupa/adonis-elasticsearch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeCoupa/adonis-elasticsearch.git"
+  },
+  "bugs": {
+    "email": "julien.le.coupanec@gmail.com",
+    "url": "https://github.com/LeCoupa/adonis-elasticsearch/issues"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.7.1"
+  }
+}
