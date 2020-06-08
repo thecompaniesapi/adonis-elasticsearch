@@ -23,7 +23,10 @@ ES_URL=http://localhost:9200
 Make sure to register the provider inside `start/app.js` file.
 
 ```js
-const providers = ["@lecoupa/adonis-elasticsearch/providers/ElasticProvider"];
+const providers = [
+  // ...
+  "@poweredwith/adonis-elasticsearch/providers/ElasticProvider",
+];
 ```
 
 That's all! Now you can use the provider by pulling it from IoC container
@@ -39,6 +42,25 @@ const response = await Elastic.search({
     },
   },
 });
+```
+
+## Paginate results the Adonis way!
+
+The `Elastic.paginate()` method will paginate the results and return the same payload as Lucid's pagination.
+
+```js
+const Elastic = use("Elastic");
+
+const response = await Elastic.search({
+  index: "my-index",
+  body: {
+    query: {
+      match_all: {},
+    },
+  },
+});
+
+return Elastic.paginate(response);
 ```
 
 ## Contributing
