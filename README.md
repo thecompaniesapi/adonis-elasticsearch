@@ -7,7 +7,7 @@ It is built on top of @elastic/elasticsearch and proxies all the methods keeping
 ## Installation
 
 ```bash
-npm install @poweredwith/adonis-elasticsearch
+npm install adonis-elasticsearch
 ```
 
 ## Set the environment variable
@@ -25,7 +25,7 @@ Make sure to register the provider inside `start/app.js` file.
 ```js
 const providers = [
   // ...
-  "@poweredwith/adonis-elasticsearch/providers/ElasticProvider",
+  "adonis-elasticsearch/providers/ElasticProvider",
 ];
 ```
 
