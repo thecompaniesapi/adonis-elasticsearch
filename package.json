@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "name": "adonis-elasticsearch",
   "description": "Elasticsearch Service Provider for Adonis with additional features",
-  "author": "Growth Bunker <product@growthbunker.com>",
+  "author": "ProspectWith <product@prospectwith.com>",
   "license": "MIT",
   "keywords": [
     "adonisjs",
