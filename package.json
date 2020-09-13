@@ -10,14 +10,14 @@
     "elasticsearch",
     "service provider"
   ],
-  "homepage": "https://github.com/poweers/adonis-elasticsearch",
+  "homepage": "https://github.com/prospectwith/adonis-elasticsearch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/poweers/adonis-elasticsearch.git"
+    "url": "https://github.com/prospectwith/adonis-elasticsearch.git"
   },
   "bugs": {
     "email": "julien.le.coupanec@gmail.com",
-    "url": "https://github.com/poweers/adonis-elasticsearch/issues"
+    "url": "https://github.com/prospectwith/adonis-elasticsearch/issues"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^7.7.1"
