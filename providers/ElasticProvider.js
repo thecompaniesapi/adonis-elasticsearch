@@ -11,10 +11,6 @@ const { Client } = require("@elastic/elasticsearch");
  ***************************************************************************/
 
 class ElasticProvider extends ServiceProvider {
-  /**
-   * Register namespaces to the IoC container
-   * @return {void}
-   */
   register() {
     this.app.singleton("Elastic", (app) => {
       const elasticUrl = app.use("Adonis/Src/Env").get("ES_URL");
@@ -29,11 +25,6 @@ class ElasticProvider extends ServiceProvider {
     this.app.alias("Adonis/Addons/Elastic", "Elastic");
   }
 
-  /**
-   * Paginate Elastic search response the Adonis way
-   * @param {Object} response
-   * @return {Object} The paginated results
-   */
   paginate(response) {
     const querystring = response.meta.request.params.querystring;
     const params = new URLSearchParams(querystring);
